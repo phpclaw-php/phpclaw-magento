@@ -69,38 +69,6 @@
         "analyse": "phpstan analyse",
         "sync-core": "composer reinstall phpclaw/phpclaw phpclaw/phpclaw-cloud phpclaw/phpclaw-mcp"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../core",
-            "options": {
-                "symlink": false,
-                "versions": {
-                    "phpclaw/phpclaw": "0.1.0"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../cloud",
-            "options": {
-                "symlink": false,
-                "versions": {
-                    "phpclaw/phpclaw-cloud": "0.1.0"
-                }
-            }
-        },
-        {
-            "type": "path",
-            "url": "../mcp",
-            "options": {
-                "symlink": false,
-                "versions": {
-                    "phpclaw/phpclaw-mcp": "0.1.0"
-                }
-            }
-        }
-    ],
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
